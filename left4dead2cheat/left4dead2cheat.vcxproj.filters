@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{d7ef76f4-b8d9-4c94-8167-b56fea47314a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{791d139b-2d5b-4f39-ab3e-32656d63cf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sdk">
+      <UniqueIdentifier>{eb761f4f-3893-402f-b73f-7834fd4d482a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sdk\interfaces">
+      <UniqueIdentifier>{ca4ee995-9257-4644-9f76-147c01d0897e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sdk">
+      <UniqueIdentifier>{71057181-1759-47c6-89fd-6ff3d314ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sdk\math">
+      <UniqueIdentifier>{cac182d9-2649-4f50-a14e-87ecc28df0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sdk\math">
+      <UniqueIdentifier>{9edbf70d-c1ab-4ce2-9faf-92e1b5054cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sdk\other">
+      <UniqueIdentifier>{0869f85b-39e5-43fb-a0ff-8f13479372f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sdk\other">
+      <UniqueIdentifier>{2819c4eb-ef4c-44ce-bd91-ceeefbd78d79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\netvar_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\other\checksum_crc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\other\CUserCmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces.cpp">
+      <Filter>源文件\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\convar\convar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\CHandleBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\createmove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\directhook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\draw_model_execute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\enginepaint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\framestagenotify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\override_view.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooklist\screen_size_changed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tools\vmthook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\netvar_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\cbaseplayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IBaseClientDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntityList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\CGlobalVarsBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\checksum_crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\clientclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\CUserCmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\PlayerInfo.h">
+      <Filter>头文件\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces.h">
+      <Filter>头文件\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc.h">
+      <Filter>头文件\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\clientstate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ISurfaces.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientUnknown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientRenderable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientNetworkable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialSystem.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\Trace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\EngineTrace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameMovement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\fnv_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICvar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\INetChannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CHandleBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\checksum_md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\Misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\convar\convar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IConvar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ISurface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineVGui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CModelInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPrediction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMoveHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientThinkable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICollideable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVRenderView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IRenderView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
