@@ -184,6 +184,7 @@
     <ClCompile Include="hook\hooklist\override_view.cpp" />
     <ClCompile Include="hook\hooklist\screen_size_changed.cpp" />
     <ClCompile Include="hook\hooks.cpp" />
+    <ClCompile Include="render\render.cpp" />
     <ClCompile Include="sdk\convar\convar.cpp" />
     <ClCompile Include="sdk\interfaces.cpp" />
     <ClCompile Include="sdk\math\vector.cpp" />
@@ -196,6 +197,7 @@
   <ItemGroup>
     <ClInclude Include="hook\hooks.h" />
     <ClInclude Include="hook\index.h" />
+    <ClInclude Include="render\render.h" />
     <ClInclude Include="sdk\client\cbaseplayer.h" />
     <ClInclude Include="sdk\client\clientstate.h" />
     <ClInclude Include="sdk\convar\convar.h" />

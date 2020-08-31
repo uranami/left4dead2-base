@@ -14,7 +14,8 @@ void __fastcall hook::enginepaint(IEngineVGui* _ecx, void* _edx, paintmode_t mod
 		//start draw
 		g_startdraw(g_surfaces);
 
-
+		Color watermarkcolr = Color(255, 192, 203, 255);
+		g_draw::draw_text(20, 20,"left4dead2base by rico1662", watermarkcolr, g_draw::font::watermark);
 
 		g_enddraw(g_surfaces);
 	}

@@ -1,5 +1,6 @@
 #pragma once
 #include "index.h"
+#include "..\render\render.h"
 #include "..\sdk\interfaces.h"
 #include "..\tools\vmthook.h"
 #include "..\tools\math.h"

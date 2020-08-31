@@ -15,6 +15,7 @@ DWORD WINAPI setupcheat(LPVOID module)
 	SetConsoleTitleA("left4dead2 internal debug console");
 
 	setup_interfaces();
+	g_draw::setup_font();
 	hook::setup_hook();
 
 	return 0;
