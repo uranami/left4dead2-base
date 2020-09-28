@@ -347,6 +347,7 @@ struct mat_sys_t
 	bool m_bSupportFlashlight;
 };
 
+
 enum WeaponID_t
 {
 	WeaponCSBase = 0,

@@ -10,7 +10,7 @@ void __fastcall hook::createmove(IBaseClientDll* _ecx, void* _edx, int sequence_
 	DWORD pebp;
 	__asm mov pebp, ebp;
 	bool* send_packet = reinterpret_cast<bool*>(*reinterpret_cast<byte**>(pebp) - 0x21);
-	auto verifiedcmd = *(cverifiedusercmd**)((uintptr_t)g_input + 0xE0);
+	auto verifiedcmd = *(cverifiedusercmd**)((uintptr_t)g_input + 0xEC);
 	if (!verifiedcmd)
 		return;
 	auto verified_cmd = &verifiedcmd[sequence_number % 150];

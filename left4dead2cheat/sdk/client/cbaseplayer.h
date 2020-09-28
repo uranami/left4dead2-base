@@ -66,7 +66,7 @@ public:
 	weaponinfo_t* get_weapon_data()
 	{
 		using original = weaponinfo_t * (__thiscall*)(LPVOID);
-		static original get_weapon_data = reinterpret_cast<original>(tools::follow_relative_jump(tools::findpattern("client.dll", "E8 ? ? ? ? 89 45 FC 8B 06")));
+		static original get_weapon_data = reinterpret_cast<original>(tools::follow_relative_jump(tools::findpattern("client.dll", "E8 ? ? ? ? 8B 10 8B C8 8B 42 04 FF D0 68")));
 		return get_weapon_data(this);
 	}
 
