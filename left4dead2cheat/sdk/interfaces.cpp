@@ -75,8 +75,6 @@ void setup_interfaces()
 	g_clientstate   =    **reinterpret_cast<clientstate***>(tools::findpattern("engine.dll", "A1 ? ? ? ? 83 C0 08") + 1);
 
 
-
-
 	tools::log("find g_engine at : 0x%p\n", g_engine);
 	tools::log("find g_entitylist at : 0x%p\n", g_entitylist);
 	tools::log("find g_baseclientdll at : 0x%p\n", g_baseclientdll);

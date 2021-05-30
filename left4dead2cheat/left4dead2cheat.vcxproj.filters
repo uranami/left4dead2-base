@@ -71,9 +71,6 @@
     <ClCompile Include="hook\hooklist\createmove.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hook\hooklist\directhook.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="hook\hooklist\draw_model_execute.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

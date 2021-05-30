@@ -177,7 +177,6 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="hook\hooklist\createmove.cpp" />
-    <ClCompile Include="hook\hooklist\directhook.cpp" />
     <ClCompile Include="hook\hooklist\draw_model_execute.cpp" />
     <ClCompile Include="hook\hooklist\enginepaint.cpp" />
     <ClCompile Include="hook\hooklist\framestagenotify.cpp" />
